@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LGM-VIP-Task-1</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class='slider'>
+        <div class="slides">
+            
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <div class="navbar">
+                
+                <nav>
+                    <ul id="MenuItems">
+                        <li><p class="icon">Zippy</p></li>
+                        <li><a href="">Home</a></li>
+                        
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#contact">Contacts</a></li>
+                        
+        
+                    </ul>
+                </nav>
+                
+            </div>
+
+            <div class="text">
+                <p class="textheader">One page promising to <br>fill all your needs!</p>
+                
+                <p class="textbody">This is a Photoshop version of Lorem ipsum. Proin<br>gravida nibh vel velit auctor aliquet</p>
+                <div class="titlebtn">
+                <span><a href="#"></a></span>
+                
+                </div>
+              </div>
+
+            
+            <div class="slide first">
+                <img src="bgimg1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="bgimg2.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="bgimg3.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="bgimg4.jpg" alt="">
+            </div>
+            
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+
+            </div>
+
+
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+
+            </div>
+
+            
+
+        </div>
+
+        <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if(counter > 4) {
+                counter = 1;
+
+            }
+        }, 5000);
+        </script>
+    </div>
+    <p class="div2head">Welcome to Zippy</p>
+    <div class="part2" id="about">
+
+    <div class="div2">
+        
+            <div class="row-sec2">
+              <div class="column-sec2" >
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Sed sed metus elementum, ultrices felis non, faucibus lectus. Suspendisse aliquam luctus sapien. Ut blandit
+                  sapien
+                  eu eros pharetra varius.</p>
+              </div>
+              <div class="column-sec2">
+                <img src="umbrella2.jpg.png" class="center"/>
+              </div>
+            </div>
+        
+    </div>
+    <div class="opt">
+    <div class="col">
+        <div class="card">
+            <i class="fa fa-bell-o fa-2x" aria-hidden="true"></i>
+          <h3>Lorem Epsum</h3><br>
+          <p class="info">This is a Photoshop version of Lorem ipsum. Proin gravida nibh vel velit auctor aliquet.</p><br>
+          <span class="part2btn"><a href="#"></a></span>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+            <i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
+          <h3>Dolor sit</h3><br>
+          <p class="info">This is a Photoshop version of Lorem ipsum. Proin gravida nibh vel velit auctor aliquet.</p><br>
+          <span class="part2btn"><a href="#"></a></span>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+            <i class="fa fa-table fa-2x" aria-hidden="true"></i>
+          <h3>consectetur</h3><br>
+          <p class="info">This is a Photoshop version of Lorem ipsum. Proin gravida nibh vel velit auctor aliquet.</p><br>
+          <span class="part2btn"><a href="#"></a></span>
+        </div>
+      </div>
+      </div>
+      </div>
+      <hr>
+      <div class="heading">
+          <h1>Projects</h1>
+      </div>
+      <div class="cards" id="projects">
+          <div class="projcard">
+              <img src="project1.jpg" alt="">
+              <h3>Project Name</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quas iste reiciendis architecto beatae
+                impedit. Ad magni iste laboriosam unde!</p>
+                <span class=""><a href="#"></a></span>
+
+          </div>
+          <div class="projcard">
+            <img src="project2.jpg" alt="">
+            <h3>Project Name</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quas iste reiciendis architecto beatae
+              impedit. Ad magni iste laboriosam unde!</p>
+              <span class=""><a href="#"></a></span>
+
+        </div>
+        <div class="projcard">
+            <img src="project3.jpg" alt="">
+            <h3>Project Name</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quas iste reiciendis architecto beatae
+              impedit. Ad magni iste laboriosam unde!</p>
+              <span class=""><a href="#"></a></span>
+
+        </div>
+        <div class="projcard">
+            
+            <img src="project4.jpg" alt="">
+            <h3>Project Name</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quas iste reiciendis architecto beatae
+              impedit. Ad magni iste laboriosam unde!</p>
+              <span class=""><a href="#"></a></span>
+
+        </div>
+      </div> 
+
+      </div>
+      <h1 class="pricing">Pricing Table</h1>
+    <div class="pricing-table" id="pricing">
+        <div class="price" id="div1">
+            <h2>Standard Plan</h2>
+            <p>Free</p>
+            <h3>2 GB availablE</h3>
+            <h3>Extra data charges</h3>
+            <h3>Free of cose</h3>
+            <h3>Add free</h3>
+            <button type="button" class="pricebtn">Buy</button>
+        </div>
+        <div class="price" id="div1">
+            <h2>Business Plan</h2>
+            <p>100 $</hp>
+            <h3>2gb Available</h3>
+            <h3>No Extra Charges</h3>
+            <h3>Add Free</h3>
+            
+            <button type="button" class="pricebtn">Buy</button>
+        </div>
+        <div class="price">
+            <h2>Primary Plan</h2>
+            <p>200 $<p>
+            <h3>2gb Available</h3>
+            <h3>No Extra Charges</h3>
+            <h3>No Extra Charges</h3>
+            <h3>Add Free</h3>
+            <button type="button" class="pricebtn">Buy</button>
+        </div>
+    </div>
+
+    <div class="videoProjects">
+        <h1>Video Projects</h1>
+        <div class="videos">
+        <video class="video" id="video1" src="vid1.mp4" width="600" height="500" controls></video>
+        <video class="video" id="video2" src="vid2.mp4" width="600" height="500" controls></video>
+        <video class="video" id="video3" src="vid3.mp4" width="600" height="500" controls></video>
+        </div>
+    </div>
+    
+        <h1 class="team">Zippy Team </h1>
+        <div class="teamMembers" id="team">
+            <div class="team1">
+                <div class="social">
+                    <div class="middle"><img src="social.png" alt=""></div>
+                </div>
+                <img src="team1.jpg">
+                
+                <strong><p>Chris Patt</p></strong>
+            <p>Team Leader</p>
+            </div>
+            <div class="team1">
+                <div class="social">
+                    <div class="middle"><img src="social.png" alt=""></div>
+                </div>
+                <img src="team2.jpg">
+                
+                <strong><p>Dave Bautista</p></strong>
+            <p>Executive</p>
+            </div>
+            <div class="team1"> 
+                <div class="social">
+                    <div class="middle"><img src="social.png" alt=""></div>
+                </div>
+                <img src="team3.jpg">
+               
+                <strong><p>Bradley Cooper</p></strong>
+            <p>HR Team</p>
+            </div>
+            
+        </div>
+        <div class="teamMembers">
+            <div class="team1">
+                <div class="social">
+                    <div class="middle"><img src="social.png" alt=""></div>
+                </div>
+                <img src="team4.jpg">
+                
+                <strong><p>Zeo Saldanar</p></strong>
+            <p>Team Management</p>
+            </div>
+            <div class="team1">
+                <div class="social">
+                    <div class="middle"><img src="social.png" alt=""></div>
+                </div>
+                <img src="team5.jpg">
+                
+                <strong><p>Karen</p></strong>
+            <p>Accountant</p>
+            </div>
+            <div class="team1">
+                <div class="social">
+                    <div class="middle"><img src="social.png" alt=""></div>
+                </div>
+                <img src="team6.jpg">
+                
+                <strong><p>Vin diesal</p></strong>
+            <p>Buisness Analyst</p>
+            </div>
+        </div>
+        <div class="zippylife">
+            <h1>Life In Zippy</h1>
+            <div class="row">
+                <div class="col-2">
+                    <img src="office1.png" width="100%" id="productimg">
+                    <div class="small-img-row">
+                        <div class="small-img-col">
+                            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+
+                            
+                        </div>
+                        <div class="small-img-col">
+                            <img src="office1.png" width="100%" class="smallimg">
+                        
+                        </div>
+                        <div class="small-img-col">
+                            <img src="office2.jpg" width="100%" class="smallimg">
+                        
+                        </div>
+                        <div class="small-img-col">
+                            <img src="office3.jpg" width="100%" class="smallimg">
+                        
+                        </div>
+                        <div class="small-img-col">
+                            <img src="office4.jpg" width="100%" class="smallimg">
+                        
+                        </div>
+                        <div class="small-img-col">
+                            <img src="office5.jpg" width="100%" class="smallimg">
+                        
+                        </div>
+                        <div class="small-img-col">
+                            <i class="fa fa-arrow-right fa-1x" aria-hidden="true"></i>
+
+                            
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+        </div>
+        </div>
+        <script >
+            var ProductImg = document.getElementById("productimg");
+            var SmallImg = document.getElementsByClassName("smallimg");
+            SmallImg[0].onclick = function(){
+                ProductImg.src = SmallImg[0].src;
+            }
+            SmallImg[1].onclick = function(){
+                ProductImg.src = SmallImg[1].src;
+            }
+            SmallImg[2].onclick = function(){
+                ProductImg.src = SmallImg[2].src;
+            }
+            SmallImg[3].onclick = function(){
+                ProductImg.src = SmallImg[3].src;
+            }
+        </script>
+
+
+        <div class="newsletter">
+            <h1 class="signup">Newsletter Signup</h1>
+            <div class="search">
+                <input type="text" name="" id="" class="searchbar">
+                <button>search</button>
+
+            </div>
+            <img src="newsletter.jpg" >
+        </div>
+        <div class="blogs" id="blog">
+            <h1 class="blog-title">Blogs</h1>
+            <div class="blogging">
+            <div class="blog">
+                <img src="blog1.jpg" alt="">
+                <h3>Lorem Epsum</h3>
+                <p>16th July 2001</p>
+                <button class="pricebtn">Read More</button>
+            </div>
+            <div class="blog">
+                <img src="blog2.jpg" alt="">
+                <h3>Lorem Epsum</h3>
+                <p>16th July 2001</p>
+                <button class="pricebtn">Read More</button>
+            </div>
+            <div class="blog">
+                <img src="blog3.jpg" alt="">
+                <h3>Lorem Epsum</h3>
+                <p>16th July 2001</p>
+                <button class="pricebtn">Read More</button>
+            </div>
+            </div>
+
+        </div>
+
+        <div class="end" id="contact">
+            
+                <img src="map.png" alt="">
+            
+            <div class="entry">
+                <h2>Contact</h2>
+                <p class="contactform">Name</p>
+                <input class="others" type="text">
+                <p class="contactform">Email Address</p>
+                <input class="others" type="text">
+                <p class="contactform">Subject</p>
+                <input class="others" type="text">
+                <p class="contactform">Message</p>
+                <input type="text" class="message">
+                <br>
+                <br>
+                <button class="send">Send</button>
+
+
+
+            </div>
+
+        </div>
+        <div class="pageend">
+            <div class="logoend">
+                <img class="logo" src="letsgrowmore.png">
+            </div>
+            <div class="contacts">
+                <h3>Office Address</h3>
+                <p class="oa">Lorem Epsum<br>Somewhere<br>earth</p>
+                
+            </div>
+            <div class="contacts">
+                <h3>Social Media</h3>
+                <div class="icons">
+                    <div class="icon">
+                        <i class="fa fa-facebook-official media" aria-hidden="true"></i>
+
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-instagram media" aria-hidden="true"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-twitter-square media" aria-hidden="true"></i>
+                        
+                    </div>
+
+                    
+
+
+
+                </div>
+                
+            </div>
+            <div class="contacts">
+                <h3>Contact</h3>
+                <p class="oa">+91 9378487654</p>
+                
+            </div>
+
+        </div>
+
+</body>
+
+</html>
