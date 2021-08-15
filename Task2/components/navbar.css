@@ -1,0 +1,138 @@
+.title{
+    color: white;
+    font-size: 5rem;
+    font-weight: 700;
+    padding: 0 70px;
+}
+
+.heading{
+    border-style: solid;
+    border-color: white;
+    width: 50%;
+    border-width: 10px;
+    margin-right: 100px;
+    border-image: linear-gradient(45deg,red,blue) 10;
+    transition: 1s;
+}
+
+.heading:hover{
+    transform: translateX(-20px);
+    background: rgb(12, 201, 22);
+    
+
+    
+}
+
+.mainpage{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.btn {
+    
+    margin-right: 200px;
+    cursor: pointer;
+    border: 5px solid #fafdff;
+    background-color: transparent;
+    height: 50px;
+    width: 200px;
+    font-weight: 600;
+    color: #fafbfc;
+    font-size: 1.5em;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    transition: 1s;
+    
+}
+
+.btn:hover{
+    border-image: linear-gradient(45deg,red,blue) 10;
+    transform: translateX(20px);
+    background: rgb(12, 201, 22);
+}
+
+.desc{
+    color: white;
+    font-size: 2rem;
+}
+.headingbtn{
+    transition: 1s;
+}
+.headingbtn:hover{
+    transform : translateX(20px);
+}
+
+.client-info{
+    color: white;
+    text-align: center;
+    border: 5px solid #fafdff;
+    width: 25%;
+    margin-left: 550px;
+    transition: 1s;
+    
+  }
+
+.client-info:hover{
+    border-image: linear-gradient(45deg,red,blue) 10;
+    background: rgb(12, 201, 22);
+}
+
+
+hr{
+    width: 20%;
+    position: relative;
+    top: 50px;
+    
+    
+
+    border: 10px solid rgba(201, 94, 23, 0.966);
+    opacity: 0.2;
+    height: 100px;
+    margin-bottom: 50px;
+    margin-left: 70px;
+    transition: 1s;
+}
+
+hr:hover{
+    width: 48%;
+    opacity: 1;
+    border-radius: 10px;
+}
+
+.tasks{
+
+    margin: 0 auto 80px;
+	position: relative;
+	line-height: 30px;
+	color: #555;
+    box-shadow: 0 0 20px 0px rgb(247, 244, 244);
+    display: flex;
+   
+    transition: 1s;
+    margin-top: 100px;
+    
+    margin-left: 70px;
+    padding-right: 50px;
+    width: 50%;
+
+
+}
+
+li{
+    color: #555;
+    transition: 1s;
+    padding: 5px;
+    font-weight: 700;
+
+}
+
+li:hover{
+    background: white;
+    border-radius: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}

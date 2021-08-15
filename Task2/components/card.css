@@ -1,0 +1,38 @@
+.card{
+    
+	margin: 0 auto 80px;
+	position: relative;
+	line-height: 30px;
+	color: #555;
+    box-shadow: 0 0 20px 0px rgb(247, 244, 244);
+    display: flex;
+    margin-top: 20px;
+    transition: 1s;
+    justify-content: center;
+    margin-left: 150px;
+    padding-right: 50px;
+}
+
+.card:hover{
+    transform : translateX(10px);
+    background: linear-gradient(white, gray);
+}
+
+.cards{
+    display: inline-block;
+}
+
+.name{
+    padding-left: 20px;
+}
+
+.email{
+    padding-left: 20px;
+}
+
+.pro-pic{
+    border-radius: 100px;
+    height: 200px;
+    padding: 10px;
+}
+
